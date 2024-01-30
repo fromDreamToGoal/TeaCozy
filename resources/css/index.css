@@ -36,7 +36,7 @@ a {
 }
 
 main {
-    
+  
 }
 
 .mission {
@@ -49,9 +49,24 @@ main {
 }
 
 .mission-text {
-    
     text-align: center;
     width: 100%;
     height: fit-content;
     background-color: black;
+}
+
+.center-block {
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteners {
+    width: 1000px;
+    display: inline-flex;
+}
+
+.contener-item img {
+    height: 200px;
+    width: 300px;
 }
