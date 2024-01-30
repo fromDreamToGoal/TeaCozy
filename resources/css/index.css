@@ -1,21 +1,26 @@
-header {
+.nav-bar {
     background-color: black;
     border-bottom: 1px solid seashell;
-}
-
-header ul {
     display: flex;
-    list-style-type: none;
-
+    justify-content: space-between;
 }
 
-li {
-  padding-right: 10px;
-}
-
-header img {
+.logo-img {
     height: 50px;
     padding-left: 10px;
+}
+
+.nav-menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-menu li {
+    padding-right: 10px;
+}
+
+.nav-menu a:hover {
+    cursor: pointer;
 }
 
 body {
@@ -28,4 +33,12 @@ body {
 
 a {
     color: seashell;
+}
+
+main {
+    
+}
+
+.mission {
+    
 }
