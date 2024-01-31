@@ -85,3 +85,22 @@ main {
     height: 500px;
     margin: auto 20px;
 }
+
+.loc {
+    display: block;
+    position: relative;
+    top: 85px;
+}
+.boxes {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 40px;
+}
+
+.location-contener {
+    width: 300px;
+    background-color: black;
+    line-height: 1.8;
+}
