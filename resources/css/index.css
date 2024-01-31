@@ -63,15 +63,25 @@ main {
     width: 1000px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     margin: 0 auto;
 }
 
 .contener-item {
     text-align: center;
+    padding-right: 25px;
 }
 
 .contener-item img {
     height: 200px;
     width: 300px;
+}
+
+.contener-locations {
+    background-image: url(/Users/sergei_golovenko/Projects/TeaCozy/resources/images/img-locations-background.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 500px;
+    margin: auto 20px;
 }
