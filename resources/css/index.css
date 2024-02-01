@@ -28,7 +28,7 @@ body {
     font-size: 22px;
     color: seashell;
     background-color: black;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 a {
@@ -103,4 +103,15 @@ main {
     width: 300px;
     background-color: black;
     line-height: 1.8;
+}
+
+.foot-box {
+    height: 200px;
+    text-align: center;
+    
+}
+
+footer {
+    text-align: left;
+    margin-left: 20px;
 }
